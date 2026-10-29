@@ -58,6 +58,9 @@
   <h3>Audio del micrófono</h3>
   <p>Solo si pulsas “Escuchar ahora”: se graban hasta 20 segundos y se envían trozos de unos 10 segundos a <strong>ACRCloud</strong> para reconocer la canción. La grabación se mantiene solo en memoria mientras escucha y no se guarda.</p>
 
+  <h3>Audio que suena en el móvil</h3>
+  <p>Solo si activas «Reconocer lo que suena en este móvil» y aceptas el permiso de Android: mientras la notificación de PlayHook está activa, al pulsar «Reconocer» se graban hasta 14 segundos del audio que reproducen otras apps (por ejemplo TikTok) y se envían trozos de unos 10 segundos a <strong>ACRCloud</strong> para reconocer la canción. PlayHook no graba la imagen de la pantalla, no guarda el audio y deja de escuchar al cerrar la notificación o a los 10 minutos sin usarla.</p>
+
   <h3>Búsquedas, portadas y fragmentos</h3>
   <p>Para mostrar portadas, buscar canciones y reproducir fragmentos de 30 segundos, la app envía el título y el artista a la API pública de <strong>Deezer</strong>. Para mostrar la letra, envía el título y el artista a <strong>LRCLIB</strong> (lrclib.net).</p>
 
@@ -77,7 +80,7 @@
   <table>
     <thead><tr><th>Proveedor</th><th>Datos</th><th>Finalidad</th></tr></thead>
     <tbody>
-      <tr><td>ACRCloud</td><td>Fragmento de audio del micrófono o del vídeo compartido</td><td>Reconocer la canción</td></tr>
+      <tr><td>ACRCloud</td><td>Fragmento de audio del micrófono, del vídeo compartido o de lo que suena en el móvil</td><td>Reconocer la canción</td></tr>
       <tr><td>Deezer</td><td>Título y artista buscados</td><td>Portadas, búsqueda y fragmentos</td></tr>
       <tr><td>Apple (iTunes Search)</td><td>Identificador de la canción</td><td>Datos de la canción de un vídeo</td></tr>
       <tr><td>LRCLIB</td><td>Título y artista</td><td>Letra de la canción</td></tr>
@@ -125,6 +128,7 @@
   <p><strong>On-device data.</strong> Saved songs (title, artist, cover art and music-service identifiers), playlists and app settings stay on your device, except for Android's system backup if you have it enabled.</p>
   <p><strong>Shared links.</strong> When you share a video with PlayHook, the app requests that video's public page from your phone to read the sound name. If the platform does not say which song it is, the app downloads the video's public audio and sends it to <strong>ACRCloud</strong> for recognition; it is not stored.</p>
   <p><strong>Microphone audio.</strong> Only when you tap “Escuchar ahora” (Listen now): up to 20 seconds are recorded and clips of about 10 seconds are sent to <strong>ACRCloud</strong> for recognition. The recording is kept in memory only while listening and is not stored.</p>
+  <p><strong>Audio playing on the phone.</strong> Only if you turn on “Recognize what is playing on this phone” and accept Android's permission: while the PlayHook notification is active, tapping “Recognize” records up to 14 seconds of the audio other apps are playing (for example TikTok) and sends clips of about 10 seconds to <strong>ACRCloud</strong>. PlayHook does not record the screen image, does not store the audio, and stops listening when you close the notification or after 10 minutes without use.</p>
   <p><strong>Search, cover art and previews.</strong> Song titles and artists are sent to the public <strong>Deezer</strong> API. To show lyrics, the title and artist are sent to <strong>LRCLIB</strong> (lrclib.net).</p>
   <p><strong>YouTube player and YouTube Music export.</strong> PlayHook uses <strong>YouTube API Services</strong> to find videos and play them with the official YouTube player, and—if you choose to export—to create a playlist in your YouTube account after you sign in with Google. By using these features you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies. You can revoke access at any time in your <a href="https://myaccount.google.com/permissions">Google account security settings</a>.</p>
   <p><strong>Spotify export.</strong> If you export to Spotify, you sign in and allow PlayHook to create playlists in your account. The access token is stored encrypted on your device. You can revoke it in your <a href="https://www.spotify.com/account/apps/">Spotify account settings</a>.</p>
