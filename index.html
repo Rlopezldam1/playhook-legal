@@ -31,7 +31,7 @@
 <body>
 <main>
   <h1>Política de privacidad de PlayHook</h1>
-  <p class="muted">Última actualización: 27 de octubre de 2026</p>
+  <p class="muted">Última actualización: 29 de octubre de 2026</p>
   <a class="lang" href="#english">English version ↓</a>
 
   <p>PlayHook (“la app”) te ayuda a identificar las canciones de los vídeos que compartes y a guardarlas en playlists. Esta política explica qué datos se tratan, para qué y con quién se comparten.</p>
@@ -53,13 +53,13 @@
   <p>Canciones encontradas (título, artista, portada e identificadores en servicios de música), playlists que creas y preferencias de la app. No salen de tu móvil salvo en la copia de seguridad del sistema de Android, si la tienes activada (la gestiona Google según tu configuración). Se borran al eliminar las canciones, borrar los datos de la app o desinstalarla.</p>
 
   <h3>Enlaces que compartes</h3>
-  <p>Cuando compartes un vídeo con PlayHook, la app consulta desde tu móvil la página pública de ese vídeo para leer el nombre del sonido. Esa petición la recibe la plataforma del vídeo, como cualquier visita a su web.</p>
+  <p>Cuando compartes un vídeo con PlayHook, la app consulta desde tu móvil la página pública de ese vídeo para leer el nombre del sonido. Esa petición la recibe la plataforma del vídeo, como cualquier visita a su web. Si la plataforma no indica qué canción suena, la app descarga el audio público del vídeo y lo envía a <strong>ACRCloud</strong> para reconocerla; no se guarda.</p>
 
   <h3>Audio del micrófono</h3>
-  <p>Solo si pulsas “Identificar escuchando”: se graban unos 10 segundos y se envían a <strong>ACRCloud</strong> para reconocer la canción. PlayHook no guarda la grabación; el archivo temporal se sobrescribe en el siguiente uso.</p>
+  <p>Solo si pulsas “Escuchar ahora”: se graban hasta 20 segundos y se envían trozos de unos 10 segundos a <strong>ACRCloud</strong> para reconocer la canción. La grabación se mantiene solo en memoria mientras escucha y no se guarda.</p>
 
   <h3>Búsquedas, portadas y fragmentos</h3>
-  <p>Para mostrar portadas, buscar canciones y reproducir fragmentos de 30 segundos, la app envía el título y el artista a la API pública de <strong>Deezer</strong>.</p>
+  <p>Para mostrar portadas, buscar canciones y reproducir fragmentos de 30 segundos, la app envía el título y el artista a la API pública de <strong>Deezer</strong>. Para mostrar la letra, envía el título y el artista a <strong>LRCLIB</strong> (lrclib.net).</p>
 
   <h3>Reproductor de YouTube y exportación a YouTube Music</h3>
   <p>PlayHook usa los <strong>servicios de la API de YouTube</strong>. Para reproducir canciones completas busca el vídeo con la YouTube Data API y lo muestra con el reproductor oficial de YouTube. Si eliges exportar una playlist, inicias sesión con tu cuenta de Google y autorizas a la app a crear la playlist en tu cuenta de YouTube; el permiso solo se usa para eso. Al usar estas funciones aceptas los <a href="https://www.youtube.com/t/terms">Términos del servicio de YouTube</a>, y se aplica la <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>. Puedes retirar el acceso en cualquier momento desde <a href="https://myaccount.google.com/permissions">la configuración de seguridad de tu cuenta de Google</a>.</p>
@@ -77,8 +77,10 @@
   <table>
     <thead><tr><th>Proveedor</th><th>Datos</th><th>Finalidad</th></tr></thead>
     <tbody>
-      <tr><td>ACRCloud</td><td>Fragmento de audio de ~10 s</td><td>Reconocer la canción</td></tr>
+      <tr><td>ACRCloud</td><td>Fragmento de audio del micrófono o del vídeo compartido</td><td>Reconocer la canción</td></tr>
       <tr><td>Deezer</td><td>Título y artista buscados</td><td>Portadas, búsqueda y fragmentos</td></tr>
+      <tr><td>Apple (iTunes Search)</td><td>Identificador de la canción</td><td>Datos de la canción de un vídeo</td></tr>
+      <tr><td>LRCLIB</td><td>Título y artista</td><td>Letra de la canción</td></tr>
       <tr><td>Google (YouTube)</td><td>Búsquedas, reproducción y, si exportas, acceso a tu cuenta</td><td>Reproductor y exportación</td></tr>
       <tr><td>Spotify</td><td>Acceso a tu cuenta (si exportas)</td><td>Crear la playlist</td></tr>
       <tr><td>Google (AdMob)</td><td>ID de publicidad, IP, datos del dispositivo</td><td>Anuncios</td></tr>
@@ -104,7 +106,7 @@
   <hr>
 
   <h1 id="english">PlayHook Privacy Policy</h1>
-  <p class="muted">Last updated: October 27, 2026</p>
+  <p class="muted">Last updated: October 29, 2026</p>
 
   <p>PlayHook (“the app”) helps you identify songs from the videos you share and save them into playlists. This policy explains what data is processed, why, and who it is shared with.</p>
 
@@ -121,9 +123,9 @@
 
   <h2>3. Data processed and purposes</h2>
   <p><strong>On-device data.</strong> Saved songs (title, artist, cover art and music-service identifiers), playlists and app settings stay on your device, except for Android's system backup if you have it enabled.</p>
-  <p><strong>Shared links.</strong> When you share a video with PlayHook, the app requests that video's public page from your phone to read the sound name.</p>
-  <p><strong>Microphone audio.</strong> Only when you tap “Identify by listening”: about 10 seconds are recorded and sent to <strong>ACRCloud</strong> for recognition. PlayHook does not keep the recording.</p>
-  <p><strong>Search, cover art and previews.</strong> Song titles and artists are sent to the public <strong>Deezer</strong> API.</p>
+  <p><strong>Shared links.</strong> When you share a video with PlayHook, the app requests that video's public page from your phone to read the sound name. If the platform does not say which song it is, the app downloads the video's public audio and sends it to <strong>ACRCloud</strong> for recognition; it is not stored.</p>
+  <p><strong>Microphone audio.</strong> Only when you tap “Escuchar ahora” (Listen now): up to 20 seconds are recorded and clips of about 10 seconds are sent to <strong>ACRCloud</strong> for recognition. The recording is kept in memory only while listening and is not stored.</p>
+  <p><strong>Search, cover art and previews.</strong> Song titles and artists are sent to the public <strong>Deezer</strong> API. To show lyrics, the title and artist are sent to <strong>LRCLIB</strong> (lrclib.net).</p>
   <p><strong>YouTube player and YouTube Music export.</strong> PlayHook uses <strong>YouTube API Services</strong> to find videos and play them with the official YouTube player, and—if you choose to export—to create a playlist in your YouTube account after you sign in with Google. By using these features you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies. You can revoke access at any time in your <a href="https://myaccount.google.com/permissions">Google account security settings</a>.</p>
   <p><strong>Spotify export.</strong> If you export to Spotify, you sign in and allow PlayHook to create playlists in your account. The access token is stored encrypted on your device. You can revoke it in your <a href="https://www.spotify.com/account/apps/">Spotify account settings</a>.</p>
   <p><strong>Ads (free version).</strong> We use <strong>Google AdMob</strong>, which may collect the advertising ID, IP address and device information to serve and measure ads and prevent fraud. In the EEA, UK and Switzerland we ask for consent with Google's consent form before loading ads; you can change it in <em>Settings → Ad privacy</em>.</p>
