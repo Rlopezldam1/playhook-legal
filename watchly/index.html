@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Watchly · Política de privacidad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62.5..100,400..800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #f2f2f0; --surface: #e4e4e0; --text: #000000; --muted: #6e6e6a; --accent: #2b3cf0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #000000; --surface: #1d1d1d; --text: #f2f2f0; --muted: #8f8f8a; --accent: #8f98ff; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 "Archivo", system-ui, sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+    h1 { font-size: 2.6rem; line-height: 1; margin: 0 0 8px; font-family: "Archivo", system-ui, sans-serif; font-stretch: 62.5%; font-weight: 800; letter-spacing: -0.01em; }
+    h2 { font-size: 1.25rem; margin-top: 2.2em; }
+    h3 { font-size: 1.05rem; margin-top: 1.6em; }
+    a { color: var(--accent); }
+    .muted { color: var(--muted); }
+    .lang { display: inline-block; margin: 16px 0; padding: 6px 12px; border-radius: 999px; background: var(--surface); text-decoration: none; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: .95rem; }
+    th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--surface); }
+    th { color: var(--muted); font-weight: 600; }
+    hr { border: 0; border-top: 1px solid var(--surface); margin: 56px 0; }
+    @media (max-width: 560px) { table, tbody, tr, td, th { display: block; } thead { display: none; } td { border: 0; padding: 2px 0; } tr { padding: 10px 0; border-bottom: 1px solid var(--surface); } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad de Watchly</h1>
+  <p class="muted">Última actualización: 2 de noviembre de 2026</p>
+  <a class="lang" href="#english">English version ↓</a>
+
+  <p>Watchly (“la app”) es una app para Android para organizar las películas y series que quieres ver: tu biblioteca, listas, planes con otras personas y recordatorios. Esta política explica qué datos se tratan, para qué y con quién se comparten.</p>
+
+  <h2>1. Responsable</h2>
+  <p>Rubén López-Davalillo Ledesma<br>Contacto: <a href="mailto:rubenlopezdavalillo9@gmail.com">rubenlopezdavalillo9@gmail.com</a></p>
+
+  <h2>2. Resumen</h2>
+  <ul>
+    <li>La app <strong>no te pide crear una cuenta</strong>. Tu biblioteca, notas, valoraciones, personas, listas y planes se guardan <strong>solo en tu móvil</strong>.</li>
+    <li>Para buscar títulos, mostrar fichas, pósters y dónde ver cada título, la app consulta servicios externos enviando solo lo necesario (el texto que buscas, el identificador del título y tu país), nunca tu biblioteca ni tus notas.</li>
+    <li>La versión gratuita muestra anuncios de Google AdMob; antes te pedimos tu consentimiento cuando la ley lo exige. Watchly Pro quita los anuncios y se compra a través de Google Play.</li>
+    <li>No vendemos tus datos.</li>
+  </ul>
+
+  <h2>3. Datos que se tratan y para qué</h2>
+
+  <h3>Tu biblioteca (en tu dispositivo)</h3>
+  <p>Títulos guardados, estados, notas, valoraciones, episodios vistos, personas con las que quieres ver algo, listas, planes y preferencias. Se guardan dentro de la app, en tu móvil, no se envían a nadie y no se incluyen en la copia de seguridad de Android. Las copias de seguridad que exportes son archivos que tú guardas y controlas. Se borran desde <em>Ajustes › Tus datos</em>, al borrar los datos de la app o al desinstalarla.</p>
+
+  <h3>Búsqueda y fichas de títulos</h3>
+  <p>Para buscar películas y series y mostrar sus fichas y tendencias, la app consulta directamente la API de <strong>Trakt</strong>. Se envían el texto que buscas y los identificadores de los títulos, junto con datos técnicos inevitables de cualquier conexión (dirección IP, versión de la app). La app no usa ninguna cuenta de Trakt.</p>
+
+  <h3>Pósters y “Dónde verla”</h3>
+  <p>Los pósters y la información de en qué plataformas está cada título llegan a través de un servidor de Watchly alojado en <strong>Cloudflare</strong>. Para “Dónde verla” se envían el identificador del título y el país que elijas en Ajustes; el servidor consulta <strong>Streaming Availability API (Movie of the Night)</strong> en nombre de la app, por lo que ese proveedor no recibe tu dirección IP. El servidor guarda copias de las imágenes y de las respuestas, que no contienen datos tuyos.</p>
+
+  <h3>Anuncios (versión gratuita)</h3>
+  <p>Usamos <strong>Google AdMob</strong> para mostrar un banner en la parte inferior de la app. AdMob puede recoger el identificador de publicidad del dispositivo, la dirección IP (de la que se deduce una ubicación aproximada), datos técnicos del dispositivo y cómo interactúas con los anuncios, para mostrarlos, medirlos y prevenir el fraude. En el Espacio Económico Europeo, Reino Unido y Suiza te pedimos el consentimiento con el formulario de Google antes de cargar anuncios; si no lo das, solo se muestran anuncios no personalizados. Puedes cambiar tu elección en cualquier momento en <em>Ajustes › Privacidad › Preferencias de anuncios</em>. Con Watchly Pro no se cargan anuncios. Más información: <a href="https://policies.google.com/technologies/partner-sites">cómo usa Google los datos de las apps de sus socios</a>.</p>
+
+  <h3>Compras (Watchly Pro)</h3>
+  <p>Los pagos se hacen íntegramente en <strong>Google Play</strong>; la app no recibe nunca tus datos de pago. Para gestionar las suscripciones usamos <strong>RevenueCat</strong>, que recibe un identificador anónimo generado por la app, los datos de la compra que facilita Google Play (producto, fecha, estado y comprobante de la compra), el país de la tienda y datos técnicos del dispositivo y de la app, para verificar la compra, activar Watchly Pro en tu móvil y permitirte restaurarla. No se asocia a tu nombre ni a tu email.</p>
+
+  <h3>Notificaciones</h3>
+  <p>Los recordatorios de planes y fechas límite se programan y se muestran en tu móvil. No pasan por ningún servidor.</p>
+
+  <h3>Permisos de Android</h3>
+  <p><strong>Internet</strong>, para buscar títulos, cargar pósters y anuncios y gestionar las compras. <strong>Notificaciones</strong>, solo para los recordatorios que tú programes. <strong>Identificador de publicidad</strong>, que añade Google AdMob. La app no usa la ubicación precisa, el micrófono, la cámara, tus contactos ni tus archivos (salvo el archivo de copia de seguridad que tú elijas al exportar o importar).</p>
+
+  <h2>4. Proveedores con los que se comparten datos</h2>
+  <table>
+    <thead><tr><th>Proveedor</th><th>Datos</th><th>Finalidad</th></tr></thead>
+    <tbody>
+      <tr><td>Trakt</td><td>Texto de búsqueda, identificadores de títulos, IP</td><td>Buscar títulos y mostrar fichas y tendencias</td></tr>
+      <tr><td>Cloudflare</td><td>Identificador del título, país elegido, IP</td><td>Servir pósters e información de plataformas</td></tr>
+      <tr><td>Movie of the Night</td><td>Identificador del título y país (sin IP del usuario)</td><td>Saber en qué plataformas está cada título</td></tr>
+      <tr><td>Google (AdMob)</td><td>ID de publicidad, IP, datos del dispositivo e interacción con los anuncios</td><td>Mostrar y medir anuncios, prevenir el fraude</td></tr>
+      <tr><td>Google Play</td><td>Datos de la compra de tu cuenta de Google</td><td>Cobrar Watchly Pro</td></tr>
+      <tr><td>RevenueCat</td><td>ID anónimo, datos de la compra, país de la tienda, datos técnicos</td><td>Verificar y restaurar Watchly Pro</td></tr>
+    </tbody>
+  </table>
+  <p>Algunos proveedores pueden tratar datos fuera del Espacio Económico Europeo con las garantías previstas en el RGPD (como las cláusulas contractuales tipo). Se aplican sus políticas: <a href="https://app.trakt.tv/privacy">Trakt</a>, <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a>, <a href="https://policies.google.com/privacy">Google</a> y <a href="https://www.revenuecat.com/privacy-policy">RevenueCat</a>.</p>
+
+  <h2>5. Base jurídica</h2>
+  <p>La prestación del servicio que pides (buscar títulos, ver fichas y plataformas, comprar y restaurar Watchly Pro); tu consentimiento para los anuncios personalizados, que puedes retirar en cualquier momento; y el interés legítimo en financiar una app gratuita con anuncios no personalizados y en prevenir el fraude.</p>
+
+  <h2>6. Tus derechos</h2>
+  <p>Puedes acceder a tus datos, rectificarlos, suprimirlos, oponerte a su tratamiento, limitarlo y pedir su portabilidad escribiendo a <a href="mailto:rubenlopezdavalillo9@gmail.com">rubenlopezdavalillo9@gmail.com</a>. Como tu biblioteca está en tu móvil, puedes exportarla o borrarla tú mismo desde <em>Ajustes › Tus datos</em> o desinstalando la app. También puedes restablecer tu identificador de publicidad en los ajustes de Android, gestionar o cancelar tus suscripciones en Google Play y reclamar ante la <a href="https://www.aepd.es">Agencia Española de Protección de Datos</a>.</p>
+
+  <h2>7. Menores</h2>
+  <p>Watchly no está dirigida a menores de 14 años y no recoge conscientemente datos de menores de esa edad.</p>
+
+  <h2>8. Atribuciones</h2>
+  <p>Watchly uses Trakt but is not endorsed or certified by Trakt. La información de plataformas la proporciona <a href="https://www.movieofthenight.com/about/api">Streaming Availability API by Movie of the Night</a>.</p>
+
+  <h2>9. Cambios</h2>
+  <p>Si cambiamos esta política actualizaremos esta página y la fecha de arriba.</p>
+
+  <hr>
+
+  <h1 id="english">Watchly Privacy Policy</h1>
+  <p class="muted">Last updated: November 2, 2026</p>
+
+  <p>Watchly (“the app”) is an Android app to organise the movies and series you want to watch: your library, lists, plans with other people and reminders. This policy explains what data is processed, why, and who it is shared with.</p>
+
+  <h2>1. Controller</h2>
+  <p>Rubén López-Davalillo Ledesma<br>Contact: <a href="mailto:rubenlopezdavalillo9@gmail.com">rubenlopezdavalillo9@gmail.com</a></p>
+
+  <h2>2. Summary</h2>
+  <ul>
+    <li>The app <strong>does not require an account</strong>. Your library, notes, ratings, people, lists and plans are stored <strong>only on your phone</strong>.</li>
+    <li>To search titles and show details, posters and where to watch, the app queries external services sending only what is needed (your search text, the title ID and your country), never your library or notes.</li>
+    <li>The free version shows Google AdMob ads; we ask for your consent first where the law requires it. Watchly Pro removes ads and is bought through Google Play.</li>
+    <li>We do not sell your data.</li>
+  </ul>
+
+  <h2>3. Data processed and purposes</h2>
+  <p><strong>Your library (on your device).</strong> Saved titles, statuses, notes, ratings, watched episodes, people, lists, plans and preferences are stored inside the app on your phone. They are not sent anywhere and are not included in Android's backup. Backups you export are files you keep and control. They are deleted from <em>Ajustes › Tus datos</em> (Settings › Your data), by clearing the app's data or by uninstalling it.</p>
+  <p><strong>Search and title details.</strong> The app queries the <strong>Trakt</strong> API directly, sending your search text and title IDs, plus the technical data of any connection (IP address, app version). The app does not use any Trakt account.</p>
+  <p><strong>Posters and “Where to watch”.</strong> Posters and streaming availability come through a Watchly server hosted on <strong>Cloudflare</strong>. For “Where to watch” the app sends the title ID and the country chosen in Settings; the server queries <strong>Streaming Availability API (Movie of the Night)</strong> on the app's behalf, so that provider does not receive your IP address. The server keeps copies of images and responses, which contain no data about you.</p>
+  <p><strong>Ads (free version).</strong> We use <strong>Google AdMob</strong> to show a banner at the bottom of the app. AdMob may collect the device's advertising ID, IP address (from which an approximate location is inferred), technical device information and ad interactions, to serve and measure ads and prevent fraud. In the EEA, UK and Switzerland we ask for consent with Google's consent form before loading ads; if you decline, only non-personalised ads are shown. You can change your choice at any time in <em>Ajustes › Privacidad › Preferencias de anuncios</em> (Settings › Privacy › Ad preferences). No ads are loaded with Watchly Pro. More information: <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from its partners' apps</a>.</p>
+  <p><strong>Purchases (Watchly Pro).</strong> Payments are made entirely on <strong>Google Play</strong>; the app never receives your payment details. Subscriptions are managed with <strong>RevenueCat</strong>, which receives an anonymous ID generated by the app, the purchase data provided by Google Play (product, date, status and purchase token), the store country and technical device and app data, to verify the purchase, unlock Watchly Pro on your phone and let you restore it. It is not linked to your name or email.</p>
+  <p><strong>Notifications.</strong> Plan and deadline reminders are scheduled and shown on your phone. They do not go through any server.</p>
+  <p><strong>Android permissions.</strong> <strong>Internet</strong>, to search titles, load posters and ads and manage purchases. <strong>Notifications</strong>, only for the reminders you schedule. <strong>Advertising ID</strong>, added by Google AdMob. The app does not use precise location, the microphone, the camera, your contacts or your files (except the backup file you choose when exporting or importing).</p>
+
+  <h2>4. Providers</h2>
+  <p>Trakt (search text, title IDs, IP: search and title details); Cloudflare (title ID, chosen country, IP: posters and streaming availability); Movie of the Night (title ID and country, without the user's IP: streaming availability); Google AdMob (advertising ID, IP, device information and ad interactions: serving and measuring ads, fraud prevention); Google Play (purchase data: charging for Watchly Pro); RevenueCat (anonymous ID, purchase data, store country, technical data: verifying and restoring Watchly Pro). Some providers may process data outside the EEA with the safeguards required by the GDPR. Their policies apply: <a href="https://app.trakt.tv/privacy">Trakt</a>, <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a>, <a href="https://policies.google.com/privacy">Google</a> and <a href="https://www.revenuecat.com/privacy-policy">RevenueCat</a>.</p>
+
+  <h2>5. Legal basis</h2>
+  <p>Providing the service you request (searching titles, viewing details and platforms, buying and restoring Watchly Pro); your consent for personalised ads, which you can withdraw at any time; and our legitimate interest in funding a free app with non-personalised ads and in preventing fraud.</p>
+
+  <h2>6. Your rights</h2>
+  <p>You may request access, rectification, erasure, objection, restriction and portability by writing to <a href="mailto:rubenlopezdavalillo9@gmail.com">rubenlopezdavalillo9@gmail.com</a>, and you may lodge a complaint with your data protection authority. Since your library lives on your phone, you can also export or delete it yourself in Settings or by uninstalling the app. You can reset your advertising ID in Android settings and manage or cancel subscriptions in Google Play.</p>
+
+  <h2>7. Children</h2>
+  <p>Watchly is not directed to children under 14 and does not knowingly collect their data.</p>
+
+  <h2>8. Attributions</h2>
+  <p>Watchly uses Trakt but is not endorsed or certified by Trakt. Streaming availability is provided by <a href="https://www.movieofthenight.com/about/api">Streaming Availability API by Movie of the Night</a>.</p>
+
+  <h2>9. Changes</h2>
+  <p>We will update this page and the date above if this policy changes.</p>
+</main>
+</body>
+</html>
