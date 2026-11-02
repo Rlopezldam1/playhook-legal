@@ -1,3 +1,4 @@
-# PlayHook
+# Políticas de privacidad
 
-Política de privacidad de la app PlayHook: https://rlopezldam1.github.io/playhook-legal/
+- PlayHook: https://rlopezldam1.github.io/playhook-legal/
+- Salón Recreativo: https://rlopezldam1.github.io/playhook-legal/salon-recreativo/
